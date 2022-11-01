@@ -6,3 +6,167 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* all sizes have been set with a hard pixel number and relative sizes within for practice */
+
+html {
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    position:sticky;
+    top:0;
+    height:6vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1%;
+    background-color:white;
+    z-index:1;
+}
+
+nav img {
+    display:block;
+    max-height:60px;
+    float:left;
+    margin-left: 1vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: right;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+header {
+    background-image:url("../images/landing.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+header h1, p {
+    color: white;
+    text-align:center;
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+header p {
+    color: white;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+#whats-on-spotify {
+    margin: 8vh auto;
+    text-align: center;
+}
+
+#whats-on-spotify img {
+    height:16vh;
+}
+
+#whats-on-spotify h2 {
+    color: black;
+    font-size: 2.6rem;
+    text-decoration:underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 1.2rem;
+    margin:0 auto;
+}
+
+#whats-on-spotify h3 {
+    color: #00B172;
+    font-size: 2.6rem;
+}
+
+#whats-on-spotify p {
+    color: black;
+    font-size: 1.4rem;
+}
+
+.icons {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top:7vh;
+}
+
+.icons > div {
+    width: 30vw;
+    margin:0 auto;
+}
+
+#yeezy {
+    background-color:#00B172;
+    margin: 3vh 3vw;
+    color: white;
+    position:relative;
+}
+
+#yeezy img {
+    display:block;
+}
+
+.final-content {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    gap: 10vw;
+    padding: 0 10vw 10vh 5vw;
+}
+
+#yeezy h2 {
+    font-size: 2.6rem;
+    text-decoration:underline;
+    text-underline-offset: 1.2rem;
+    padding: 10vh 5vw 5vh 5vw;
+}
+
+#yeezy h3 {
+    font-size: 1.8rem;
+}
+
+#features h3, #features p {
+    text-align: left;
+}
+
+#features h3 {
+    font-size: 2.2rem;
+}
+
+#features p {
+    font-size: 1.5rem;
+}
+#features {
+    max-width: 30vw;
+}
+
+#white-logo {
+    height: 16vh;
+    align-self:center
+}
+
+#app-picture {
+    height: 65vh;
+}
+
+
